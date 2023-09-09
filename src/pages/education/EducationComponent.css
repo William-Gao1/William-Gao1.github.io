@@ -1,0 +1,97 @@
+.education-main {
+  width: 100%;
+}
+
+.basic-education {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.heading-div {
+  display: flex;
+  align-items: center;
+}
+
+.heading-div > * {
+  flex: 1;
+}
+
+.education-section-header {
+  margin-left: 2em;
+}
+
+.heading-img-div {
+  margin-left: 3em;
+  max-width: 20em;
+  margin-top: 2em;
+}
+
+.heading-text-div {
+  text-align: center;
+}
+
+.heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 350px;
+}
+
+.heading-sub-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+@media (max-width: 1380px) {
+  .heading-img-div {
+    margin: auto;
+  }
+  .heading-text {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: "Google Sans Medium";
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 200px;
+  }
+  .heading-sub-text {
+    font-size: 25px;
+  }
+  .heading-text-div {
+    text-align: center;
+    margin-bottom: 3em;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-img-div {
+    margin: auto;
+  }
+  .heading-text {
+    font-size: 30px;
+    margin: auto;
+  }
+
+  .heading-sub-text {
+    font-size: 20px;
+  }
+
+  .heading-div {
+    flex-direction: column;
+  }
+  
+  .heading-text-div {
+    text-align: center;
+    margin-bottom: 3em;
+  }
+}

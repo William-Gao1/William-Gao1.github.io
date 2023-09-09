@@ -1,0 +1,121 @@
+{
+  "data": [
+    {
+      "name": "Automatic Skull Stripping",
+      "description": "Takes a 3D T1/T2/FLAIR MRI Scan and removes the skull. Used a 2D Convolutional Neural Network (ResUNet)",
+      "url": "https://github.com/William-Gao1/2d-brain-mask",
+      "image": "skull-strip.png",
+      "languages": [
+        {
+          "skill": "Tensorflow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        },
+        {
+          "name": "scikit-image",
+          "iconifyClass": "devicon:scikitlearn"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        }
+      ]
+    },
+    {
+      "name": "Automatic Stroke Segmentation",
+      "createdAt": "2022-03-13T20:41:33Z",
+      "description": "Takes a 3D ADC and DWI/b1000 MRI Scan and removes the skull. Used a 2-channel 3D Convolutional Neural Network (U-Net)",
+      "url": "https://github.com/William-Gao1/3d-cnn-mri",
+      "image": "stroke-seg.png",
+      "languages": [
+        {
+          "name": "Tensorflow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        },
+        {
+          "name": "scikit-image",
+          "iconifyClass": "devicon:scikitlearn"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        }
+      ]
+    },
+    {
+      "name": "MRI Image Analysis Pipeline",
+      "createdAt": "2022-02-11T14:50:20Z",
+      "description": "Takes raw dicom images from many subjects, processes them in parallel in preparation for image/stroke lesion analysis. Used previously trained U-Nets for skull stripping and stroke segmentation",
+      "url": "https://github.com/William-Gao1/mri-image-pipeline",
+      "image": "pipeline.jpg",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "scikit-image",
+          "iconifyClass": "devicon:scikitlearn"
+        }
+      ]
+    },
+    {
+      "name": "Stroke Symptom Prediction",
+      "createdAt": "2021-11-26T17:56:07Z",
+      "description": "From the anatomical 3D T1 MRI image, predict if the patient will experience a severe decline in health within a 18 month time frame. Used a 3D CNN.",
+      "url": "https://github.com/William-Gao1/3d-cnn-mri",
+      "image": "stroke.webp",
+      "languages": [
+        {
+          "name": "Tensorflow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        },
+        {
+          "name": "scikit-image",
+          "iconifyClass": "devicon:scikitlearn"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        }
+      ]
+    },
+    {
+      "name": "UW Path",
+      "createdAt": "2021-01-06T06:36:41Z",
+      "description": "A degree planning website built for UWaterloo students. Students plan their degrees, and the prerequisites, corequisites, antirequisites and degree fulfillment are verified automatically.",
+      "url": "https://github.com/UW-Path",
+      "image": "uwpath.png",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "name": "Poker",
+      "createdAt": "2021-01-06T06:36:41Z",
+      "description": "Real-time online poker game. Used websockets for real-time updates along with JWTs for user authentication.",
+      "url": "https://github.com/stars/William-Gao1/lists/poker",
+      "image": "cards.webp",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    }
+  ]
+}

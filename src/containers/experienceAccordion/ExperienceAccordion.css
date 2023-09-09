@@ -1,0 +1,21 @@
+.experience-accord {
+  margin: 100px;
+}
+
+.experience-section-title {
+  margin-bottom: 1em;
+}
+
+.experience-section {
+  margin-bottom: 4em;
+}
+
+.accord-panel {
+  font-family: "Google Sans Regular";
+}
+
+@media (max-width: 768px) {
+  .experience-accord {
+    margin: 20px;
+  }
+}
