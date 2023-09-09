@@ -1,1 +1,5 @@
-{}
+{
+  "manifest_version": 3,
+  "name": "William Gao's Portfolio",
+  "version": "1.0.1"
+}

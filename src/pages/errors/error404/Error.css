@@ -3,11 +3,26 @@
 }
 
 .error-main > .error-class {
-  width: 90%;
-  margin: auto 5%;
-  /* min-height: calc(100vh - 192px); */
+  margin-top: 10vh;
   text-align: center;
   display: block;
+}
+
+.go-home-button {
+  border-radius: 10px;
+  height: 4em;
+  width: 8em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 3em;
+}
+
+.go-home-button > span {
+  margin: auto;
+  font-size: 1.3em;
+  font-weight: 500;
 }
 
 .error-main > .error-class > .error-404 {

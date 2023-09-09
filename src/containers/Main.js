@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
@@ -12,7 +12,7 @@ export default class Main extends Component {
     if (settings.isSplash) {
       return (
         <div>
-          <HashRouter basename="/">
+          <BrowserRouter basename="/">
             <Switch>
               <Route
                 path="/home"
@@ -44,18 +44,18 @@ export default class Main extends Component {
                 )}
               />
             </Switch>
-          </HashRouter>
+          </BrowserRouter>
         </div>
       );
     } else {
       return (
         <div>
-          <HashRouter basename="/">
+          <BrowserRouter basename="/">
             <Switch>
               <Route
                 path="/"
                 exact
-                render={(props) => <Home {...props} theme={this.props.theme} />}
+                render={() => <Redirect to="/home" />}
               />
               <Route
                 path="/home"
@@ -80,8 +80,14 @@ export default class Main extends Component {
                   <Projects {...props} theme={this.props.theme} />
                 )}
               />
+              <Route
+                path="*"
+                render={(props) => (
+                  <Error404 {...props} theme={this.props.theme} />
+                )}
+              />
             </Switch>
-          </HashRouter>
+          </BrowserRouter>
         </div>
       );
     }

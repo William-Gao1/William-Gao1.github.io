@@ -11,8 +11,8 @@ export default function GithubRepoCard({ repo, theme }) {
 
   return (
     <Fade top duration={2000} distance="40px">
-    <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
-          <div key={repo.id} onClick={() => openRepoinNewTab(repo.url)}>
+    <div className="repo-card-div" style={{ backgroundColor: theme.highlight }} onClick={() => openRepoinNewTab(repo.url)}>
+          <div style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", marginBottom: "1em"}}>
             <div className="repo-name-div">
               <svg
                 aria-hidden="true"
@@ -42,9 +42,11 @@ export default function GithubRepoCard({ repo, theme }) {
           </div>
 
           <div>
-            <p className="repo-description" style={{ color: theme.text }}>
-              {repo.description}
-            </p>
+            <div>
+              <p className="repo-description" style={{ color: theme.text, marginBottom: "1em" }}>
+                {repo.description}
+              </p>
+            </div>
             <div className="repo-details">
               <ProjectLanguages
                 className="repo-languages"

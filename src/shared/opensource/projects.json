@@ -27,7 +27,7 @@
     {
       "name": "Automatic Stroke Segmentation",
       "createdAt": "2022-03-13T20:41:33Z",
-      "description": "Takes a 3D ADC and DWI/b1000 MRI Scan and removes the skull. Used a 2-channel 3D Convolutional Neural Network (U-Net)",
+      "description": "Takes a 3D ADC and DWI/b1000 MRI Scan and removes the skull. Used a 2-channel 3D Convolutional Neural Network (UNet)",
       "url": "https://github.com/William-Gao1/3d-cnn-mri",
       "image": "stroke-seg.png",
       "languages": [
@@ -52,7 +52,7 @@
     {
       "name": "MRI Image Analysis Pipeline",
       "createdAt": "2022-02-11T14:50:20Z",
-      "description": "Takes raw dicom images from many subjects, processes them in parallel in preparation for image/stroke lesion analysis. Used previously trained U-Nets for skull stripping and stroke segmentation",
+      "description": "Takes raw DICOM images from many subjects, processes them in parallel in preparation for image/stroke lesion analysis. Used previously trained UNets for skull stripping and stroke segmentation",
       "url": "https://github.com/William-Gao1/mri-image-pipeline",
       "image": "pipeline.jpg",
       "languages": [

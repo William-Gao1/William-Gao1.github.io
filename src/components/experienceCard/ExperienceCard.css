@@ -284,6 +284,7 @@ transition: all 0.3s ease-in-out 0s;
       /* margin-bottom:10px; */
       flex-direction:column;
       text-align: center;
+      margin-bottom: 4em;
   }
 
   .arrow-left {

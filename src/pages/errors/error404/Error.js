@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../../../components/header/Header";
 import TopButton from "../../../components/topButton/TopButton";
 import "./Error.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default class Error extends Component {
   render() {
@@ -14,8 +14,8 @@ export default class Error extends Component {
             <h1>Woops</h1>
             <h1 className="error-404">404</h1>
             <p>The requested page is unavailable at the moment!</p>
-            <Link
-              className="main-button"
+            <NavLink
+              className="go-home-button"
               to="/home"
               style={{
                 color: theme.body,
@@ -24,8 +24,8 @@ export default class Error extends Component {
                 display: "inline-flex",
               }}
             >
-              Go Home
-            </Link>
+              <span>Go Home</span>
+            </NavLink>
         </div>
         <TopButton theme={this.props.theme} />
       </div>

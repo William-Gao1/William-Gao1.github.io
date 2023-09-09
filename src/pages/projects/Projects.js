@@ -4,6 +4,7 @@ import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
+import Grid from "@material-ui/core/Grid";
 import {
   projectsHeader,
   publicationsHeader,
@@ -47,9 +48,16 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
+          <Grid container spacing={3}>
+            {ProjectsData.data.map((repo) => {
+              return (
+                <Grid item xs={12} sm={4} md={4} lg={4} xl={3}>
+                  <GithubRepoCard repo={repo} theme={theme} />
+                </Grid>
+              )
+            })}
+          </Grid>
+          
         </div>
 
         {/* Publications  */}

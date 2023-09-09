@@ -234,52 +234,62 @@ const courses = [
   {
     courseName: "CO 456: Introduction to Game Theory",
     description: "Game theory and its applications to the modeling of competition and cooperation in business, economics, and society. Topics include two-person games in strategic form and Nash equilibria, extensive form games, multi-stage games, coalition games and the core, bayesian games, mechanism design, and auctions.",
-    dates: "Fall 2023"
+    dates: "Fall 2023",
+    url: "https://uwflow.com/course/co456"
   },
   {
     courseName: "CS 466: Algorithm Design and Analysis",
     description: "Algorithmic approaches and methods of assessment that reflect a broad spectrum of criteria. Topics include Probabilisic analysis, Graph Compression, Multiplicative weight update, Lavasz Local Lemma, Random Walks, Sublinear time algorithms, Streaming algorithms, Distributed algorithms, Approximation algorithm, Parallel Algorithms",
-    dates: "Fall 2023"
+    dates: "Fall 2023",
+    url: "https://uwflow.com/course/cs466"
   },
   {
     courseName: "STAT 333: Stochastic Processes 1",
     description: "Stochastic processes, with an emphasis on regenerative phenomena. Topics include generating functions, conditional probability distributions and conditional expectation, discrete-time Markov chains with a countable state space, limit distributions for ergodic and absorbing chains, applications including the random walk, the gambler's ruin problem, and the Galton-Watson branching process, an introduction to counting processes, connections between the exponential distribution and Poisson process, and non-homogeneous and compound Poisson processes.",
-    dates: "Fall 2023"
+    dates: "Fall 2023",
+    url: "https://uwflow.com/course/stat333"
   },
   {
     courseName: "STAT 373: Regression and Forecasting Methods in Finance",
     description: "Application of regression and time series models in finance. Topics include multiple regression, algebraic and geometric representation of least squares, inference methods, ANOVA, time series modeling, autoregressive AR(1) models, assessment and prediction, moving average smoothing, seasonal adjustment, non-stationarity and differencing.",
-    dates: "Fall 2023"
+    dates: "Fall 2023",
+    url: "https://uwflow.com/course/stat373"
   },
   {
     courseName: "CO 250: Introduction to Optimization",
     description: "Broad introduction to optimization. Topics include program formulations, the Simplex Algorithm, duality, geometry, integer programs, non-linear programs and the KKT Conditions",
-    dates: "Spring 2023"
+    dates: "Spring 2023",
+    url: "https://uwflow.com/course/co250"
   },
   {
     courseName: "CS 370: Numerical Computation",
     description: "Principles of numerical computation as a key aspect of scientific computation in the context of specific applications to image processing, analysis of data, and scientific modeling. Topics include approximation by splines, fast Fourier transforms, solution of linear and nonlinear equations, differential equations, floating point number systems, error, stability",
-    dates: "Winter 2022"
+    dates: "Winter 2022",
+    url: "https://uwflow.com/course/cs370"
   },
   {
     courseName: "AFM 423: Machine Learning Approach to Quantitative Investing",
     description: "Factor investing techniques applicable to equity investment strategies. Topics include, statistical anomolies, penalized regressions, feature engineering, decision trees, deep learning, validation and parameter tuning, ensemble learning",
-    dates: "Winter 2022"
+    dates: "Winter 2022",
+    url: "https://uwflow.com/course/afm423"
   },
   {
     courseName: "CS 341: Algorithms",
     description: "Efficient algorithms and effective algorithm design techniques. Program design with emphasis on pragmatic and mathematical aspects of program efficiency. Topics include divide and conquer algorithms, recurrences, greedy algorithms, dynamic programming, graph search and backtrack, problems without algorithms, NP-completeness",
-    dates: "Winter 2022"
+    dates: "Winter 2022",
+    url: "https://uwflow.com/course/cs341"
   },
   {
     courseName: "CS 350: Operating Systems",
     description: "Fundamentals of operating system function, design, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security. Built a basic operating system in C.",
-    dates: "Winter 2022"
+    dates: "Winter 2022",
+    url: "https://uwflow.com/course/cs350"
   },
   {
     courseName: "CFM 301: Financial Data Analytics",
     description: "Financial data analytics in the areas of asset pricing, securities trading, and portfolio management. Used Python to test asset pricing theories, trading algorithms and strategies, back-testing techniques.",
-    dates: "Winter 2022"
+    dates: "Winter 2022",
+    url: "https://uwflow.com/course/cfm301"
   },
 ]
 
@@ -307,7 +317,7 @@ const experience = {
           points: [
             "Worked with Slurm scheduler to train Machine Learning models on SickKids HPC Cluster (21,000 Cores, 8 GPU Racks, 14 PiB Tier 1 Storage)",
             "Built and trained 2D Convolutional neural networks to perform skull stripping and stroke segmentation on 3D MRI images with GPU acceleration",
-            "Independently upgraded stroke segmentation model to a 3D U-Net architecture to improve accuracy",
+            "Independently upgraded stroke segmentation model to a 3D UNet architecture to improve accuracy",
             "Led an initiative to engineer an image processing pipeline for all pediatric stroke imaging research by collaborating with neurology research scientists. Used trained CNNs and image processing tools like skimage",
             "Proposed a universal patient ID system to tackle patient duplication when they move between healthcare facilities. After gaining support at the managerial level, presented the idea to an international executive committee representing 100+ hospitals across 30+ countries.",
             "Researched and implemented machine learning models such as Support Vector Machines, 3D CNNs, and Multi-Variate Regressions to predict future symptoms of stroke patients from MRI images taken at onset of stroke"
@@ -353,7 +363,7 @@ const experience = {
           color: "#9b1578",
         },
         {
-          title: "Backend Engineer Developer",
+          title: "Backend Engineer",
           company: "OMERS",
           company_url: "https://www.omers.com/",
           logo_path: "omers.webp",

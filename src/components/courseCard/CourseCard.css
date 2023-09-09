@@ -5,6 +5,12 @@
   flex: 1 1 25%;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   line-height: 1.5;
+  height: 100%;
+}
+
+.course-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  cursor: pointer;
 }
 
 .course-card-header {
@@ -17,4 +23,5 @@
 
 .course-date {
   white-space: nowrap;
+  margin-left: 1em;
 }
