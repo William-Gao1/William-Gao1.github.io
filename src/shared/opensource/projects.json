@@ -15,7 +15,7 @@
           "iconifyClass": "devicon:keras"
         },
         {
-          "name": "scikit-image",
+          "name": "Scikit-Image",
           "iconifyClass": "devicon:scikitlearn"
         },
         {
@@ -40,7 +40,7 @@
           "iconifyClass": "devicon:keras"
         },
         {
-          "name": "scikit-image",
+          "name": "Scikit-Image",
           "iconifyClass": "devicon:scikitlearn"
         },
         {
@@ -61,7 +61,7 @@
           "iconifyClass": "logos-python"
         },
         {
-          "name": "scikit-image",
+          "name": "Scikit-Image",
           "iconifyClass": "devicon:scikitlearn"
         }
       ]
@@ -82,7 +82,7 @@
           "iconifyClass": "devicon:keras"
         },
         {
-          "name": "scikit-image",
+          "name": "Scikit-Image",
           "iconifyClass": "devicon:scikitlearn"
         },
         {
@@ -101,6 +101,22 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "VueJS",
+          "iconifyClass": "logos:vue"
+        },
+        {
+          "name": "Django",
+          "iconifyClass": "logos:django-icon"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
+        },
+        {
+          "name": "CloudRun",
+          "iconifyClass": "logos:google-cloud-run"
         }
       ]
     },
@@ -114,6 +130,18 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "ExpressJS",
+          "iconifyClass": "skill-icons:expressjs-light"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
         }
       ]
     }

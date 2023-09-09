@@ -25,7 +25,7 @@ class Projects extends Component {
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
+											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
                 <ProjectsImg theme={theme} />
@@ -54,10 +54,9 @@ class Projects extends Component {
                 <Grid item xs={12} sm={4} md={4} lg={4} xl={3}>
                   <GithubRepoCard repo={repo} theme={theme} />
                 </Grid>
-              )
+              );
             })}
           </Grid>
-          
         </div>
 
         {/* Publications  */}

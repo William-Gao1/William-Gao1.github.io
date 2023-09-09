@@ -30,14 +30,16 @@ const socialMediaLinks = [
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/william-gao-459b75171/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    fontAwesomeIcon: "ri:linkedin-fill", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },{
+  },
+  {
     name: "Gmail",
     link: "mailto:william2010.gao@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    fontAwesomeIcon: "mdi:gmail", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },{
+  },
+  {
     name: "Github",
     link: "https://github.com/William-Gao1",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
@@ -132,8 +134,8 @@ const skills = {
         },
         {
           skillName: "Java Spring",
-          fontAwesomeClassname: "devicon:spring"
-        }
+          fontAwesomeClassname: "devicon:spring",
+        },
       ],
     },
     {
@@ -203,8 +205,8 @@ const skills = {
         },
         {
           skillName: "Cloud Run",
-          fontAwesomeClassname: "logos:google-cloud-run"
-        }
+          fontAwesomeClassname: "logos:google-cloud-run",
+        },
       ],
     },
   ],
@@ -223,7 +225,7 @@ const degrees = {
         "⚡ I study fundamental software engineering concepts such as Data Structures, Algorithms, Operating Systems, AI, etc.",
         "⚡ I have also spent a lot of time taking mathematics: Statistics, Calculus, Linear Algebra, Numerical Computation.",
         "⚡ I was selected for the CFM outstanding academic acheivement award for two years in a row. This is awarded to the top 5% of students in my program and carries a monetary value of $2000.",
-        "⚡ I love to learn. I have taken a wide range of courses such as Data Analytics, Optimization, Algorithms, and Game Theory."
+        "⚡ I love to learn. I have taken a wide range of courses such as Data Analytics, Optimization, Algorithms, and Game Theory.",
       ],
       website_link: "https://uwaterloo.ca/computing-financial-management/",
     },
@@ -233,65 +235,75 @@ const degrees = {
 const courses = [
   {
     courseName: "CO 456: Introduction to Game Theory",
-    description: "Game theory and its applications to the modeling of competition and cooperation in business, economics, and society. Topics include two-person games in strategic form and Nash equilibria, extensive form games, multi-stage games, coalition games and the core, bayesian games, mechanism design, and auctions.",
+    description:
+      "Game theory and its applications to the modeling of competition and cooperation in business, economics, and society. Topics include two-person games in strategic form and Nash equilibria, extensive form games, multi-stage games, coalition games and the core, bayesian games, mechanism design, and auctions.",
     dates: "Fall 2023",
-    url: "https://uwflow.com/course/co456"
+    url: "https://uwflow.com/course/co456",
   },
   {
     courseName: "CS 466: Algorithm Design and Analysis",
-    description: "Algorithmic approaches and methods of assessment that reflect a broad spectrum of criteria. Topics include Probabilisic analysis, Graph Compression, Multiplicative weight update, Lavasz Local Lemma, Random Walks, Sublinear time algorithms, Streaming algorithms, Distributed algorithms, Approximation algorithm, Parallel Algorithms",
+    description:
+      "Algorithmic approaches and methods of assessment that reflect a broad spectrum of criteria. Topics include Probabilisic analysis, Graph Compression, Multiplicative weight update, Lavasz Local Lemma, Random Walks, Sublinear time algorithms, Streaming algorithms, Distributed algorithms, Approximation algorithm, Parallel Algorithms",
     dates: "Fall 2023",
-    url: "https://uwflow.com/course/cs466"
+    url: "https://uwflow.com/course/cs466",
   },
   {
     courseName: "STAT 333: Stochastic Processes 1",
-    description: "Stochastic processes, with an emphasis on regenerative phenomena. Topics include generating functions, conditional probability distributions and conditional expectation, discrete-time Markov chains with a countable state space, limit distributions for ergodic and absorbing chains, applications including the random walk, the gambler's ruin problem, and the Galton-Watson branching process, an introduction to counting processes, connections between the exponential distribution and Poisson process, and non-homogeneous and compound Poisson processes.",
+    description:
+      "Stochastic processes, with an emphasis on regenerative phenomena. Topics include generating functions, conditional probability distributions and conditional expectation, discrete-time Markov chains with a countable state space, limit distributions for ergodic and absorbing chains, applications including the random walk, the gambler's ruin problem, and the Galton-Watson branching process, an introduction to counting processes, connections between the exponential distribution and Poisson process, and non-homogeneous and compound Poisson processes.",
     dates: "Fall 2023",
-    url: "https://uwflow.com/course/stat333"
+    url: "https://uwflow.com/course/stat333",
   },
   {
     courseName: "STAT 373: Regression and Forecasting Methods in Finance",
-    description: "Application of regression and time series models in finance. Topics include multiple regression, algebraic and geometric representation of least squares, inference methods, ANOVA, time series modeling, autoregressive AR(1) models, assessment and prediction, moving average smoothing, seasonal adjustment, non-stationarity and differencing.",
+    description:
+      "Application of regression and time series models in finance. Topics include multiple regression, algebraic and geometric representation of least squares, inference methods, ANOVA, time series modeling, autoregressive AR(1) models, assessment and prediction, moving average smoothing, seasonal adjustment, non-stationarity and differencing.",
     dates: "Fall 2023",
-    url: "https://uwflow.com/course/stat373"
+    url: "https://uwflow.com/course/stat373",
   },
   {
     courseName: "CO 250: Introduction to Optimization",
-    description: "Broad introduction to optimization. Topics include program formulations, the Simplex Algorithm, duality, geometry, integer programs, non-linear programs and the KKT Conditions",
+    description:
+      "Broad introduction to optimization. Topics include program formulations, the Simplex Algorithm, duality, geometry, integer programs, non-linear programs and the KKT Conditions",
     dates: "Spring 2023",
-    url: "https://uwflow.com/course/co250"
+    url: "https://uwflow.com/course/co250",
   },
   {
     courseName: "CS 370: Numerical Computation",
-    description: "Principles of numerical computation as a key aspect of scientific computation in the context of specific applications to image processing, analysis of data, and scientific modeling. Topics include approximation by splines, fast Fourier transforms, solution of linear and nonlinear equations, differential equations, floating point number systems, error, stability",
+    description:
+      "Principles of numerical computation as a key aspect of scientific computation in the context of specific applications to image processing, analysis of data, and scientific modeling. Topics include approximation by splines, fast Fourier transforms, solution of linear and nonlinear equations, differential equations, floating point number systems, error, stability",
     dates: "Winter 2022",
-    url: "https://uwflow.com/course/cs370"
+    url: "https://uwflow.com/course/cs370",
   },
   {
     courseName: "AFM 423: Machine Learning Approach to Quantitative Investing",
-    description: "Factor investing techniques applicable to equity investment strategies. Topics include, statistical anomolies, penalized regressions, feature engineering, decision trees, deep learning, validation and parameter tuning, ensemble learning",
+    description:
+      "Factor investing techniques applicable to equity investment strategies. Topics include, statistical anomolies, penalized regressions, feature engineering, decision trees, deep learning, validation and parameter tuning, ensemble learning",
     dates: "Winter 2022",
-    url: "https://uwflow.com/course/afm423"
+    url: "https://uwflow.com/course/afm423",
   },
   {
     courseName: "CS 341: Algorithms",
-    description: "Efficient algorithms and effective algorithm design techniques. Program design with emphasis on pragmatic and mathematical aspects of program efficiency. Topics include divide and conquer algorithms, recurrences, greedy algorithms, dynamic programming, graph search and backtrack, problems without algorithms, NP-completeness",
+    description:
+      "Efficient algorithms and effective algorithm design techniques. Program design with emphasis on pragmatic and mathematical aspects of program efficiency. Topics include divide and conquer algorithms, recurrences, greedy algorithms, dynamic programming, graph search and backtrack, problems without algorithms, NP-completeness",
     dates: "Winter 2022",
-    url: "https://uwflow.com/course/cs341"
+    url: "https://uwflow.com/course/cs341",
   },
   {
     courseName: "CS 350: Operating Systems",
-    description: "Fundamentals of operating system function, design, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security. Built a basic operating system in C.",
+    description:
+      "Fundamentals of operating system function, design, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security. Built a basic operating system in C.",
     dates: "Winter 2022",
-    url: "https://uwflow.com/course/cs350"
+    url: "https://uwflow.com/course/cs350",
   },
   {
     courseName: "CFM 301: Financial Data Analytics",
-    description: "Financial data analytics in the areas of asset pricing, securities trading, and portfolio management. Used Python to test asset pricing theories, trading algorithms and strategies, back-testing techniques.",
+    description:
+      "Financial data analytics in the areas of asset pricing, securities trading, and portfolio management. Used Python to test asset pricing theories, trading algorithms and strategies, back-testing techniques.",
     dates: "Winter 2022",
-    url: "https://uwflow.com/course/cfm301"
+    url: "https://uwflow.com/course/cfm301",
   },
-]
+];
 
 // Experience Page
 const experience = {
@@ -320,29 +332,36 @@ const experience = {
             "Independently upgraded stroke segmentation model to a 3D UNet architecture to improve accuracy",
             "Led an initiative to engineer an image processing pipeline for all pediatric stroke imaging research by collaborating with neurology research scientists. Used trained CNNs and image processing tools like skimage",
             "Proposed a universal patient ID system to tackle patient duplication when they move between healthcare facilities. After gaining support at the managerial level, presented the idea to an international executive committee representing 100+ hospitals across 30+ countries.",
-            "Researched and implemented machine learning models such as Support Vector Machines, 3D CNNs, and Multi-Variate Regressions to predict future symptoms of stroke patients from MRI images taken at onset of stroke"
+            "Researched and implemented machine learning models such as Support Vector Machines, 3D CNNs, and Multi-Variate Regressions to predict future symptoms of stroke patients from MRI images taken at onset of stroke",
           ],
           referencedPapers: [
             {
-              name: "Automatic Segmentation of Acute Ischemic Stroke From DWI Using 3-D Fully Convolutional DenseNets",
-              url: "https://ieeexplore.ieee.org/abstract/document/8328863"
+              name:
+                "Automatic Segmentation of Acute Ischemic Stroke From DWI Using 3-D Fully Convolutional DenseNets",
+              url: "https://ieeexplore.ieee.org/abstract/document/8328863",
             },
             {
-              name: "Automatic post-stroke lesion segmentation on MR images using 3D residual convolutional neural network",
-              url: "https://www.sciencedirect.com/science/article/pii/S2213158220301133"
+              name:
+                "Automatic post-stroke lesion segmentation on MR images using 3D residual convolutional neural network",
+              url:
+                "https://www.sciencedirect.com/science/article/pii/S2213158220301133",
             },
             {
               name: "Voxel-based lesion-symptom mapping",
-              url: "https://www.nature.com/articles/nn1050"
+              url: "https://www.nature.com/articles/nn1050",
             },
             {
-              name: "Corrections for multiple comparisons in voxel-based lesion-symptom mapping",
-              url: "https://www.sciencedirect.com/science/article/abs/pii/S0028393217303196"
+              name:
+                "Corrections for multiple comparisons in voxel-based lesion-symptom mapping",
+              url:
+                "https://www.sciencedirect.com/science/article/abs/pii/S0028393217303196",
             },
             {
-              name: "Multiclass Support Vector Machine-Based Lesion Mapping Predicts Functional Outcome in Ischemic Stroke Patients",
-              url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0129569"
-            }
+              name:
+                "Multiclass Support Vector Machine-Based Lesion Mapping Predicts Functional Outcome in Ischemic Stroke Patients",
+              url:
+                "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0129569",
+            },
           ],
           color: "#0879bf",
         },
@@ -358,7 +377,7 @@ const experience = {
           points: [
             "Used Java Spring and React to develop features in preparation for product release",
             "Pitched and got approval to build a generic React front-end stepper component with Typescript for use across the entire organization",
-            "Worked directly with the DevOps team to create a centralized dashboard to view security risks and overall health of services"
+            "Worked directly with the DevOps team to create a centralized dashboard to view security risks and overall health of services",
           ],
           color: "#9b1578",
         },
@@ -375,7 +394,7 @@ const experience = {
             "Used Java Spring to develop multiple microservices for internal pensions processing",
             "Presented work to 50+ developers in sprint demos to show team progress to stakeholders",
             "Worked with the architecture team to integrate a more modern third party email service into the backend tech stack",
-            "Led a team of 8 interns to design and build a Slack application that automatically connects co-workers together for coffee chats to boost networking during the COVID pandemic. Presented our design and prototype to upper management at the senior VP level"
+            "Led a team of 8 interns to design and build a Slack application that automatically connects co-workers together for coffee chats to boost networking during the COVID pandemic. Presented our design and prototype to upper management at the senior VP level",
           ],
           color: "#fc1f20",
         },
@@ -391,7 +410,7 @@ const experience = {
           points: [
             "Worked in an agile team to develop several MERN/PERN full stack web applications for 200+ users each",
             "Conducted demos each month to showcase products to end users",
-            "Corresponded with DevOps to diagnose and fix issues in production"
+            "Corresponded with DevOps to diagnose and fix issues in production",
           ],
           color: "#fc1f20",
         },
@@ -403,7 +422,8 @@ const experience = {
         {
           title: "Research Assistant",
           company: "Roberto Guglielmi (University of Waterloo)",
-          company_url: "https://uwaterloo.ca/applied-mathematics/people-profiles/roberto-guglielmi",
+          company_url:
+            "https://uwaterloo.ca/applied-mathematics/people-profiles/roberto-guglielmi",
           logo_path: "waterloo.png",
           duration: "May 2022 - Current",
           location: "Waterloo, Canada",
@@ -414,24 +434,28 @@ const experience = {
             "Utilized C++ and Python to build an Agent Based Model to compute the dynamics of the spread of COVID, RSV, and Influenza in schools",
             "Emphasis placed on control measures such as asymptomatic testing and vaccinations",
             "Working with Prof. Dillon Browne (Psychology) to investigate children sense of belonging in the region of Waterloo",
-            "Applied a linear LASSO model to survey data to determine features of interest"
+            "Applied a linear LASSO model to survey data to determine features of interest",
           ],
           referencedPapers: [
             {
-              name: "Model-based projections for COVID-19 outbreak size and student-days lost to closure in Ontario childcare centres and primary schools",
-              url: "https://www.nature.com/articles/s41598-021-85302-6"
+              name:
+                "Model-based projections for COVID-19 outbreak size and student-days lost to closure in Ontario childcare centres and primary schools",
+              url: "https://www.nature.com/articles/s41598-021-85302-6",
             },
             {
-              name: "Estimate of the rate of unreported COVID-19 cases during the first outbreak in Rio de Janeiro",
-              url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9220757"
+              name:
+                "Estimate of the rate of unreported COVID-19 cases during the first outbreak in Rio de Janeiro",
+              url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9220757",
             },
             {
-              name: "A model for COVID-19 with isolation, quarantine and testing as control measures",
-              url: "https://www.sciencedirect.com/science/article/pii/S1755436521000025"
-            }
+              name:
+                "A model for COVID-19 with isolation, quarantine and testing as control measures",
+              url:
+                "https://www.sciencedirect.com/science/article/pii/S1755436521000025",
+            },
           ],
           color: "#000000",
-        }
+        },
       ],
     },
   ],
@@ -466,8 +490,7 @@ const publications = {
 };
 
 // Contact Page
-const contactPageData = {
-};
+const contactPageData = {};
 
 export {
   settings,
@@ -481,5 +504,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
-  courses
+  courses,
 };

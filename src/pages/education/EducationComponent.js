@@ -19,7 +19,7 @@ class Education extends Component {
             <div className="heading-div">
               <div className="heading-img-div">
                 {/* <img
-									src={require("../../assests/images/education.svg")}
+									src={require("../../assets/images/education.svg")}
 									alt=""
 								/> */}
                 <EducationImg theme={theme} />
@@ -35,7 +35,7 @@ class Education extends Component {
           <Educations theme={this.props.theme} />
 
           <h2 className="education-section-header">Relevant Coursework</h2>
-          <Courses courses={courses} theme={this.props.theme}/>
+          <Courses courses={courses} theme={this.props.theme} />
         </div>
         <TopButton theme={this.props.theme} />
       </div>

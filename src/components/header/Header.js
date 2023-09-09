@@ -5,8 +5,8 @@ import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 
-import resume from '../../assests/resume.pdf'
-import transcript from '../../assests/transcript.pdf'
+import resume from "../../assets/resume.pdf";
+import transcript from "../../assets/transcript.pdf";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
