@@ -2,6 +2,7 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
+import { NavLink } from "react-bootstrap";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -22,7 +23,7 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle} View some of my work <a className="project-link-p" href="#/projects">here</a>.
+                {greeting.subTitle} View some of my work <NavLink className="project-link-p" href="projects">here</NavLink>.
               </p>
               <SocialMedia theme={theme} />
               {/* <div className="button-greeting-div">
