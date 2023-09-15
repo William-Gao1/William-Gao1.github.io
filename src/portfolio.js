@@ -420,21 +420,59 @@ const experience = {
       title: "Research",
       experiences: [
         {
-          title: "Research Assistant",
-          company: "Roberto Guglielmi (University of Waterloo)",
+          title: "Research Assistant | Generative AI Diffusion Models",
+          company: "in Professor Justin Wan's Group (University of Waterloo)",
+          company_url: "https://cs.uwaterloo.ca/about/people/jwlwan",
+          logo_path: "waterloo.png",
+          duration: "Sept 2023 - Current",
+          location: "Waterloo, Canada",
+          description:
+            "Conducted research under Professor Justin Wan to optimize Generative AI training and sampling. Despite the widespread popularity of generative AI for its capacity to craft realistic and creative content, the surge in content generation requests has not been met with a corresponding increase in speed. This research project delves into strategies for accelerating the training and sampling procedures of diffusion models by optimizing the computation of differential equations.",
+          points: [
+            "Investigated multiple ways to decrease training time and sampling by speeding up differential equation solvers",
+            "Tested a time-stepping PDE solver for the Kolmogorov/Fokker-Plank equation",
+            "Skills: Python, PyTorch, Statistics, Differential Equations",
+          ],
+          referencedPapers: [
+            {
+              name:
+                "Generative Modelling by Estimating Gradients of the Data Distribution",
+              url: "https://arxiv.org/abs/1907.05600",
+            },
+            {
+              name:
+                "Score-Based Generative Modeling Through Stochastic Differential Equations",
+              url: "https://arxiv.org/abs/2011.13456",
+            },
+            {
+              name: "Text-to-image Diffusion Models in Generative AI: A Survey",
+              url: "https://arxiv.org/abs/2303.07909",
+            },
+            {
+              name:
+                "Diffusion Models: A Comprehensive Survey of Methods and Applications",
+              url: "https://arxiv.org/abs/2209.00796",
+            },
+          ],
+          color: "#000000",
+        },
+        {
+          title: "Research Assistant | Modelling and Control Theory",
+          company: "Professor Roberto Guglielmi (University of Waterloo)",
           company_url:
             "https://uwaterloo.ca/applied-mathematics/people-profiles/roberto-guglielmi",
           logo_path: "waterloo.png",
-          duration: "May 2022 - Current",
+          duration: "May 2023 - Current",
           location: "Waterloo, Canada",
           description:
-            "Roberto Guglielmi received his PhD in Mathematics at University Tor Vergata of Rome, Italy, jointly with a PhD in Applied Mathematics at the University of Lorraine - Metz, France. His research addresses problems in control and optimization of large-scale dynamics, described by ordinary or partial differential systems of evolution, with applications to the optimization of utility distribution over networks, heat transfer phenomena in the presence of crack and fractures, control of epidemics, reinforcement learning methods.",
+            "Conducted research under the guidance of Professor Roberto Guglielmi, focusing on the dynamics of pandemics involving multiple viruses within school settings. The COVID-19 pandemic has underscored the imperative for improved decision-making tools. This research initiative studies agent-based modeling to analyze the consequences of pandemics in schools, encompassing both their impact and the mental health of students.",
           points: [
             "Analyzed various papers to figure out current models being used to model disease spread",
             "Utilized C++ and Python to build an Agent Based Model to compute the dynamics of the spread of COVID, RSV, and Influenza in schools",
             "Emphasis placed on control measures such as asymptomatic testing and vaccinations",
             "Working with Prof. Dillon Browne (Psychology) to investigate children sense of belonging in the region of Waterloo",
             "Applied a linear LASSO model to survey data to determine features of interest",
+            "Skills: Python, C++, Regression Analysis",
           ],
           referencedPapers: [
             {
@@ -453,6 +491,27 @@ const experience = {
               url:
                 "https://www.sciencedirect.com/science/article/pii/S1755436521000025",
             },
+          ],
+          color: "#000000",
+        },
+      ],
+    },
+    {
+      title: "Volunteership",
+      experiences: [
+        {
+          title: "Software Developer",
+          company: "UW Path",
+          company_url: "https://uwpath.com",
+          logo_path: "uwpath.png",
+          duration: "Apr 2022 - Jan 2023",
+          location: "Waterloo, Canada",
+          description:
+            "UWPath is a degree planning website built for UWaterloo students. Students can plan their courses in UW Path's degree planner, where prerequisites, corequisites, antirequisites and degree fulfillment are automatically verified. Want to take a specific degree with a minor and a specialization? UW Path provides automated software that shows what courses are needed to take for each part of a student's degree.",
+          points: [
+            "Worked with a team of 8 developers to refactor and maintain a cloud based application with 5000+ peak users",
+            "Independently was responsible for migrating cloud infrastructure to GCP Cloud Run for improved cost-savings",
+            "Pitched application to the University of Waterloo's Mathematics Endowment Fund to secure $1200/year funding",
           ],
           color: "#000000",
         },
