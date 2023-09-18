@@ -382,7 +382,7 @@ const experience = {
           color: "#9b1578",
         },
         {
-          title: "Backend Engineer",
+          title: "Software Engineer",
           company: "OMERS",
           company_url: "https://www.omers.com/",
           logo_path: "omers.webp",
@@ -399,7 +399,7 @@ const experience = {
           color: "#fc1f20",
         },
         {
-          title: "Full Stack Developer",
+          title: "Software Engineer",
           company: "The Co-operators",
           company_url: "https://www.cooperators.ca/en/",
           logo_path: "co-operators.jpeg",
@@ -500,7 +500,7 @@ const experience = {
       title: "Volunteership",
       experiences: [
         {
-          title: "Software Developer",
+          title: "Software Engineer",
           company: "UW Path",
           company_url: "https://uwpath.com",
           logo_path: "uwpath.png",
