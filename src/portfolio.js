@@ -234,16 +234,30 @@ const degrees = {
 
 const courses = [
   {
-    courseName: "CO 456: Introduction to Game Theory",
+    courseName: "CS 480: Introduction to Machine Learning",
     description:
-      "Game theory and its applications to the modeling of competition and cooperation in business, economics, and society. Topics include two-person games in strategic form and Nash equilibria, extensive form games, multi-stage games, coalition games and the core, bayesian games, mechanism design, and auctions.",
-    dates: "Fall 2023",
-    url: "https://uwflow.com/course/co456",
+      "Introduction to modeling and algorithmic techniques for machines to learn concepts from data. Generalization: underfitting, overfitting, cross-validation. Tasks: classification, regression, clustering. Optimization-based learning: loss minimization. regularization. Statistical learning: maximum likelihood, Bayesian learning. Algorithms: nearest neighbour, (generalized) linear regression, mixtures of Gaussians, Gaussian processes, kernel methods, support vector machines, deep learning, sequence learning, ensemble techniques. Large scale learning: distributed learning and stream learning.",
+    dates: "Winter 2024",
+    url: "https://uwflow.com/course/cs480",
   },
   {
-    courseName: "CS 466: Algorithm Design and Analysis",
+    courseName: "CS 479: Neural Networks",
     description:
-      "Algorithmic approaches and methods of assessment that reflect a broad spectrum of criteria. Topics include Probabilisic analysis, Graph Compression, Multiplicative weight update, Lavasz Local Lemma, Random Walks, Sublinear time algorithms, Streaming algorithms, Distributed algorithms, Approximation algorithm, Parallel Algorithms",
+      "An introduction to neural network methods, with some discussion of their relevance to neuroscience. Simple neuron models and networks of neurons. Training feedforward networks for classification or regression. Learning using the backpropagation of errors. Unsupervised learning methods. Optimal linear decoding. Recurrent neural networks. Convolutional neural networks. Advanced topics, including adversarial inputs and biologically plausible learning methods.",
+    dates: "Winter 2024",
+    url: "https://uwflow.com/course/cs479",
+  },
+  {
+    courseName: "CS 456: Computer Networks",
+    description:
+      "An introduction to network architectures and protocols, placing emphasis on protocols used in the Internet. Specific topics include application layer protocols, network programming, transport protocols, routing, multicast, data link layer issues, multimedia networking, network security, and network management.",
+    dates: "Winter 2024",
+    url: "https://uwflow.com/course/cs456",
+  },
+  {
+    courseName: "CS 466: Advanced Algorithms",
+    description:
+      "Algorithmic approaches and methods of assessment that reflect a broad spectrum of criteria. Topics include Probabilisic analysis, Graph Compression, Multiplicative weight update, Lavasz Local Lemma, Random Walks, Sublinear time algorithms, Streaming algorithms, Approximation algorithm, Online Algorithms",
     dates: "Fall 2023",
     url: "https://uwflow.com/course/cs466",
   },
@@ -281,13 +295,6 @@ const courses = [
       "Factor investing techniques applicable to equity investment strategies. Topics include, statistical anomolies, penalized regressions, feature engineering, decision trees, deep learning, validation and parameter tuning, ensemble learning",
     dates: "Winter 2022",
     url: "https://uwflow.com/course/afm423",
-  },
-  {
-    courseName: "CS 341: Algorithms",
-    description:
-      "Efficient algorithms and effective algorithm design techniques. Program design with emphasis on pragmatic and mathematical aspects of program efficiency. Topics include divide and conquer algorithms, recurrences, greedy algorithms, dynamic programming, graph search and backtrack, problems without algorithms, NP-completeness",
-    dates: "Winter 2022",
-    url: "https://uwflow.com/course/cs341",
   },
   {
     courseName: "CS 350: Operating Systems",

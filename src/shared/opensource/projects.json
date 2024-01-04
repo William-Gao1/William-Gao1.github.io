@@ -1,6 +1,35 @@
 {
   "data": [
     {
+      "name": "Skribbl.ai",
+      "createdAt": "2021-01-06T06:36:41Z",
+      "description": "One player draws while the others guess. However, there is a neural network guessing as well - if the network guesses before the players, they lose. The humans have an option to play against an LSTM or a CNN trained on Google's Quick, Draw! dataset",
+      "url": "https://skribbl-ai-5e27f18747e4.herokuapp.com/",
+      "image": "skribbl-ai.png",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Socket.IO",
+          "iconifyClass": "logos:socket-io"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "skill": "Tensorflow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        }
+      ]
+    },
+    {
       "name": "Automatic Skull Stripping",
       "description": "Takes a 3D T1/T2/FLAIR MRI Scan and removes the skull. Used a 2D Convolutional Neural Network (ResUNet)",
       "url": "https://github.com/William-Gao1/2d-brain-mask",
@@ -117,31 +146,6 @@
         {
           "name": "CloudRun",
           "iconifyClass": "logos:google-cloud-run"
-        }
-      ]
-    },
-    {
-      "name": "Poker",
-      "createdAt": "2021-01-06T06:36:41Z",
-      "description": "Real-time online poker game. Used websockets for real-time updates along with JWTs for user authentication.",
-      "url": "https://github.com/stars/William-Gao1/lists/poker",
-      "image": "cards.webp",
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "ExpressJS",
-          "iconifyClass": "skill-icons:expressjs-light"
-        },
-        {
-          "name": "ReactJS",
-          "iconifyClass": "logos:react"
-        },
-        {
-          "name": "PostgreSQL",
-          "iconifyClass": "logos:postgresql"
         }
       ]
     }

@@ -58,9 +58,8 @@ export default function GithubRepoCard({ repo, theme }) {
             <p
               className="repo-description"
               style={{ color: theme.text, marginBottom: "1em" }}
-            >
-              {repo.description}
-            </p>
+              dangerouslySetInnerHTML={{ __html: repo.description }}
+            ></p>
           </div>
           <div className="repo-details">
             <ProjectLanguages
