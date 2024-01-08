@@ -144,7 +144,7 @@ const skills = {
       skills: [
         "⚡ Experienced working on multiple cloud platforms",
         "⚡ Hosted and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Built pipelines and working with Docker to automatically deploy and monitor applications",
+        "⚡ Built pipelines and worked with Docker to automatically deploy and monitor applications",
       ],
       softwareSkills: [
         {
@@ -225,7 +225,7 @@ const degrees = {
         "⚡ I study fundamental software engineering concepts such as Data Structures, Algorithms, Operating Systems, AI, etc.",
         "⚡ I have also spent a lot of time taking mathematics: Statistics, Calculus, Linear Algebra, Numerical Computation.",
         "⚡ I was selected for the CFM outstanding academic acheivement award for two years in a row. This is awarded to the top 5% of students in my program and carries a monetary value of $2000.",
-        "⚡ I love to learn. I have taken a wide range of courses such as Data Analytics, Optimization, Algorithms, and Game Theory.",
+        "⚡ I love to learn. I have taken a wide range of courses such as Data Analytics, Optimization, Advanced Algorithms, and Game Theory.",
       ],
       website_link: "https://uwaterloo.ca/computing-financial-management/",
     },
@@ -439,6 +439,7 @@ const experience = {
             "Investigated multiple ways to decrease training time and sampling by speeding up differential equation solvers",
             "Tested a time-stepping PDE solver for the Kolmogorov/Fokker-Plank equation",
             "Skills: Python, PyTorch, Statistics, Differential Equations",
+            "Collaborated with the research team to author a research paper, detailing the methodology, results, and implications of the diffusion model study",
           ],
           referencedPapers: [
             {
