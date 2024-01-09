@@ -224,7 +224,7 @@ const degrees = {
       descriptions: [
         "⚡ I study fundamental software engineering concepts such as Data Structures, Algorithms, Operating Systems, AI, etc.",
         "⚡ I have also spent a lot of time taking mathematics: Statistics, Calculus, Linear Algebra, Numerical Computation.",
-        "⚡ I was selected for the CFM outstanding academic acheivement award for two years in a row. This is awarded to the top 5% of students in my program and carries a monetary value of $2000.",
+        "⚡ I was selected for the CFM outstanding academic achievement award for two years in a row. This is awarded to the top 5% of students in my program and carries a monetary value of $2000.",
         "⚡ I love to learn. I have taken a wide range of courses such as Data Analytics, Optimization, Advanced Algorithms, and Game Theory.",
       ],
       website_link: "https://uwaterloo.ca/computing-financial-management/",
