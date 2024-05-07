@@ -438,7 +438,7 @@ const experience = {
           points: [
             "Investigated multiple ways to decrease training time and sampling by speeding up differential equation solvers",
             "Tested a time-stepping PDE solver for the Kolmogorov/Fokker-Plank equation",
-            "Collaborated with the research team to author a research paper, detailing the methodology, results, and implications of the diffusion model study",
+            "Collaborated with the research team to author and submit a research paper to BMVC, detailing the methodology, results, and implications of the diffusion model study",
             "Skills: Python, PyTorch, Statistics, Differential Equations",
           ],
           referencedPapers: [

@@ -1,6 +1,23 @@
 {
   "data": [
     {
+      "name": "Efficient Denoising using Score Embedding in Score-based Diffusion Models",
+      "createdAt": "2021-01-06T06:36:41Z",
+      "description": "Official implementation of our paper that solves the log-density FP equation and embeds the resulting scores to aid with training",
+      "url": "https://github.com/andrew-na-git/Score-Embedding-Fast-Diffusion",
+      "image": "diffusion.png",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "PyTorch",
+          "iconifyClass": "logos:pytorch"
+        }
+      ]
+    },
+    {
       "name": "Skribbl.ai",
       "createdAt": "2021-01-06T06:36:41Z",
       "description": "One player draws while the others guess. However, there is a neural network guessing as well - if the network guesses before the players, they lose. The humans have an option to play against an LSTM or a CNN trained on Google's Quick, Draw! dataset",
