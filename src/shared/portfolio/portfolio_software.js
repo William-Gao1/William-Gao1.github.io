@@ -334,7 +334,7 @@ const experience = {
           description:
             "Relay Financial is a fintech company that offers banking services tailored to small and medium-sized businesses. Their platform provides features like business banking accounts, expense management tools, and corporate cards, all with a focus on simplicity and efficiency.",
           points: [
-            "Started an initiative to build machine learning models to automate workflows, greatly reducing turnaround time to approve new customers",
+            "Started an initiative to automate critical workflows with machine learning, greatly reducing turnaround time to approve new customers",
             "Fine-tuned a Vision Transformer model to automatically classify documents and dynamically pull relevant information based on specific company policies",
             "Utilized AWS lambdas and Typescript to deploy and build new functionality for risk analysis workflows",
           ],
@@ -356,10 +356,9 @@ const experience = {
           description:
             "The Stroke Imaging Lab for Children (SILC) serves as the global centre for imaging research across 106 medical institutions in 34 countries by outlining the causes, diagnosis and treatment of paediatric stroke. SILC's vision is to use advanced neuroimaging techniques to better understand the neurobiological processes underlying plasticity and recovery from paediatric stroke.",
           points: [
-            "Worked with Slurm scheduler to train Machine Learning models on SickKids HPC Cluster (21,000 Cores, 8 GPU Racks, 14 PiB Tier 1 Storage)",
-            "Built and trained 2D Convolutional neural networks to perform skull stripping and stroke segmentation on 3D MRI images with GPU acceleration",
-            "Independently upgraded stroke segmentation model to a 3D UNet architecture to improve accuracy",
-            "Led an initiative to engineer an image processing pipeline for all pediatric stroke imaging research by collaborating with neurology research scientists. Used trained CNNs and image processing tools like skimage",
+            "Trained machine learning models to eliminate tedious tasks from specialized neurologists, drastically improving care for children affected by stroke",
+            "Built and trained 3D Convolutional neural networks to perform skull stripping and stroke segmentation on MRI Scans",
+            "Led an initiative to engineer an image processing pipeline for all pediatric stroke imaging research by collaborating with neurology research scientists",
             "Proposed a universal patient ID system to tackle patient duplication when they move between healthcare facilities. After gaining support at the managerial level, presented the idea to an international executive committee representing 100+ hospitals across 30+ countries.",
             "Researched and implemented machine learning models such as Support Vector Machines, 3D CNNs, and Multi-Variate Regressions to predict future symptoms of stroke patients from MRI images taken at onset of stroke",
           ],
@@ -404,7 +403,8 @@ const experience = {
           description:
             "PointClickCare is the leading cloud-based healthcare tech platform enabling real-time insights at every stage of the patient healthcare journey. More than 27,000 long-term and post-acute care providers, over 3,100 hospitals, 2,200 ambulatory clinics, and every major U.S health plan uses PointClickCare.",
           points: [
-            "Used Java Spring and React to develop features in preparation for product release",
+            "Built microservices that helped modernized the patient management systems of 27,000+ long-term care providers",
+            "Used Java Spring and React to develop features in preparation for product releases",
             "Pitched and got approval to build a generic React front-end stepper component with Typescript for use across the entire organization",
             "Worked directly with the DevOps team to create a centralized dashboard to view security risks and overall health of services",
           ],
@@ -420,7 +420,7 @@ const experience = {
           description:
             "OMERS serves as the guardian of the retirement income of more than 500,000 municipal employees across Ontario. With offices in North America, Europe, Asia, and Australia, OMERS manages $127.4 billion in net assets making it one of the largest defined benefit pension plans in Canada.",
           points: [
-            "Used Java Spring to develop multiple microservices for internal pensions processing",
+            "Worked on mission-critical backend services that processed the pensions of 600,000+ public employees",
             "Presented work to 50+ developers in sprint demos to show team progress to stakeholders",
             "Worked with the architecture team to integrate a more modern third party email service into the backend tech stack",
             "Led a team of 8 interns to design and build a Slack application that automatically connects co-workers together for coffee chats to boost networking during the COVID pandemic. Presented our design and prototype to upper management at the senior VP level",
@@ -437,6 +437,7 @@ const experience = {
           description:
             "The Co-operators is a leading Canadian financial services co-operative, offering insurance and welath products, services, and advice. The Co-operators has over $56 billion in assets under management.",
           points: [
+            "Worked on internal risk analysis tools that ensured the safetly of 100+ insurance officers",
             "Worked in an agile team to develop several MERN/PERN full stack web applications for 200+ users each",
             "Conducted demos each month to showcase products to end users",
             "Corresponded with DevOps to diagnose and fix issues in production",
