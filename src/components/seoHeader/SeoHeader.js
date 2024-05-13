@@ -1,14 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import {
-  greeting,
-  seo,
-  socialMediaLinks,
-  experience,
-  contactPageData,
-} from "../../portfolio.js";
+import { useParams } from "react-router-dom";
+import * as SoftwarePortfolio from "../../shared/portfolio/portfolio_software.js";
+import * as MLPortfolio from "../../shared/portfolio/portfolio_ml.js";
 
-function SeoHeader() {
+const SeoHeader = () => {
+  const { role } = useParams();
+
+  const { greeting, seo, socialMediaLinks, experience, contactPageData } =
+    role === "software" ? SoftwarePortfolio : MLPortfolio;
+
   let sameAs = [];
   socialMediaLinks
     .filter(
@@ -60,6 +61,6 @@ function SeoHeader() {
       <script type="application/ld+json">{JSON.stringify(data)}</script>
     </Helmet>
   );
-}
+};
 
 export default SeoHeader;

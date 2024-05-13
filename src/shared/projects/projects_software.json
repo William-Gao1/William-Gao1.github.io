@@ -1,0 +1,170 @@
+{
+  "data": [
+    {
+      "name": "Efficient Denoising using Score Embedding in Score-based Diffusion Models",
+      "createdAt": "2021-01-06T06:36:41Z",
+      "description": "Official implementation of our paper that solves the log-density FP equation and embeds the resulting scores to aid with training",
+      "url": "https://github.com/andrew-na-git/Score-Embedding-Fast-Diffusion",
+      "image": "diffusion.png",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "PyTorch",
+          "iconifyClass": "logos:pytorch"
+        }
+      ]
+    },
+    {
+      "name": "Skribbl.ai",
+      "createdAt": "2021-01-06T06:36:41Z",
+      "description": "One player draws while the others guess. However, there is a neural network guessing as well - if the network guesses before the players, they lose. The humans have an option to play against an LSTM or a CNN trained on Google's Quick, Draw! dataset",
+      "url": "https://skribbl-ai-5e27f18747e4.herokuapp.com/",
+      "image": "skribbl-ai.png",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Socket.IO",
+          "iconifyClass": "logos:socket-io"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "skill": "Tensorflow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        }
+      ]
+    },
+    {
+      "name": "Automatic Skull Stripping",
+      "description": "Takes a 3D T1/T2/FLAIR MRI Scan and removes the skull. Used a 2D Convolutional Neural Network (ResUNet)",
+      "url": "https://github.com/William-Gao1/2d-brain-mask",
+      "image": "skull-strip.png",
+      "languages": [
+        {
+          "skill": "Tensorflow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        },
+        {
+          "name": "Scikit-Image",
+          "iconifyClass": "devicon:scikitlearn"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        }
+      ]
+    },
+    {
+      "name": "Automatic Stroke Segmentation",
+      "createdAt": "2022-03-13T20:41:33Z",
+      "description": "Takes a 3D ADC and DWI/b1000 MRI Scan and removes the skull. Used a 2-channel 3D Convolutional Neural Network (UNet)",
+      "url": "https://github.com/William-Gao1/3d-cnn-mri",
+      "image": "stroke-seg.png",
+      "languages": [
+        {
+          "name": "Tensorflow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        },
+        {
+          "name": "Scikit-Image",
+          "iconifyClass": "devicon:scikitlearn"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        }
+      ]
+    },
+    {
+      "name": "MRI Image Analysis Pipeline",
+      "createdAt": "2022-02-11T14:50:20Z",
+      "description": "Takes raw DICOM images from many subjects, processes them in parallel in preparation for image/stroke lesion analysis. Used previously trained UNets for skull stripping and stroke segmentation",
+      "url": "https://github.com/William-Gao1/mri-image-pipeline",
+      "image": "pipeline.jpg",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Scikit-Image",
+          "iconifyClass": "devicon:scikitlearn"
+        }
+      ]
+    },
+    {
+      "name": "Stroke Symptom Prediction",
+      "createdAt": "2021-11-26T17:56:07Z",
+      "description": "From the anatomical 3D T1 MRI image, predict if the patient will experience a severe decline in health within a 18 month time frame. Used a 3D CNN.",
+      "url": "https://github.com/William-Gao1/3d-cnn-mri",
+      "image": "stroke.webp",
+      "languages": [
+        {
+          "name": "Tensorflow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        },
+        {
+          "name": "Scikit-Image",
+          "iconifyClass": "devicon:scikitlearn"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        }
+      ]
+    },
+    {
+      "name": "UW Path",
+      "createdAt": "2021-01-06T06:36:41Z",
+      "description": "A degree planning website built for UWaterloo students. Students plan their degrees, and the prerequisites, corequisites, antirequisites and degree fulfillment are verified automatically.",
+      "url": "https://github.com/UW-Path",
+      "image": "uwpath.png",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "VueJS",
+          "iconifyClass": "logos:vue"
+        },
+        {
+          "name": "Django",
+          "iconifyClass": "logos:django-icon"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
+        },
+        {
+          "name": "CloudRun",
+          "iconifyClass": "logos:google-cloud-run"
+        }
+      ]
+    }
+  ]
+}

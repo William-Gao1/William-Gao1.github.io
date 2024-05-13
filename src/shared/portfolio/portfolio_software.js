@@ -50,47 +50,6 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developed highly scalable production ready deep learning models",
-        "⚡ Experienced working with Computer Vision and Medical Imaging projects",
-        "⚡ Proficient in using distributed computing to work with big data",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
@@ -209,6 +168,47 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Developed highly scalable production-ready deep learning models",
+        "⚡ Experienced working with Computer Vision in Medical Imaging projects as well as Transformers for document understanding",
+        "⚡ Proficient in using distributed computing to work with big data",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
   ],
 };
 
@@ -234,6 +234,27 @@ const degrees = {
 
 const courses = [
   {
+    courseName: "CS 466: Advanced Algorithms",
+    description:
+      "Algorithmic approaches and methods of assessment that reflect a broad spectrum of criteria. Topics include Probabilisic analysis, Graph Compression, Multiplicative weight update, Lavasz Local Lemma, Random Walks, Sublinear time algorithms, Streaming algorithms, Approximation algorithm, Online Algorithms",
+    dates: "Fall 2023",
+    url: "https://uwflow.com/course/cs466",
+  },
+  {
+    courseName: "CS 456: Computer Networks",
+    description:
+      "An introduction to network architectures and protocols, placing emphasis on protocols used in the Internet. Specific topics include application layer protocols, network programming, transport protocols, routing, multicast, data link layer issues, multimedia networking, network security, and network management.",
+    dates: "Winter 2024",
+    url: "https://uwflow.com/course/cs456",
+  },
+  {
+    courseName: "CS 350: Operating Systems",
+    description:
+      "Fundamentals of operating system function, design, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security. Built a basic operating system in C.",
+    dates: "Winter 2022",
+    url: "https://uwflow.com/course/cs350",
+  },
+  {
     courseName: "CS 480: Introduction to Machine Learning",
     description:
       "Introduction to modeling and algorithmic techniques for machines to learn concepts from data. Generalization: underfitting, overfitting, cross-validation. Tasks: classification, regression, clustering. Optimization-based learning: loss minimization. regularization. Statistical learning: maximum likelihood, Bayesian learning. Algorithms: nearest neighbour, (generalized) linear regression, mixtures of Gaussians, Gaussian processes, kernel methods, support vector machines, deep learning, sequence learning, ensemble techniques. Large scale learning: distributed learning and stream learning.",
@@ -246,20 +267,6 @@ const courses = [
       "An introduction to neural network methods, with some discussion of their relevance to neuroscience. Simple neuron models and networks of neurons. Training feedforward networks for classification or regression. Learning using the backpropagation of errors. Unsupervised learning methods. Optimal linear decoding. Recurrent neural networks. Convolutional neural networks. Advanced topics, including adversarial inputs and biologically plausible learning methods.",
     dates: "Winter 2024",
     url: "https://uwflow.com/course/cs479",
-  },
-  {
-    courseName: "CS 456: Computer Networks",
-    description:
-      "An introduction to network architectures and protocols, placing emphasis on protocols used in the Internet. Specific topics include application layer protocols, network programming, transport protocols, routing, multicast, data link layer issues, multimedia networking, network security, and network management.",
-    dates: "Winter 2024",
-    url: "https://uwflow.com/course/cs456",
-  },
-  {
-    courseName: "CS 466: Advanced Algorithms",
-    description:
-      "Algorithmic approaches and methods of assessment that reflect a broad spectrum of criteria. Topics include Probabilisic analysis, Graph Compression, Multiplicative weight update, Lavasz Local Lemma, Random Walks, Sublinear time algorithms, Streaming algorithms, Approximation algorithm, Online Algorithms",
-    dates: "Fall 2023",
-    url: "https://uwflow.com/course/cs466",
   },
   {
     courseName: "STAT 333: Stochastic Processes 1",
@@ -297,13 +304,6 @@ const courses = [
     url: "https://uwflow.com/course/afm423",
   },
   {
-    courseName: "CS 350: Operating Systems",
-    description:
-      "Fundamentals of operating system function, design, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security. Built a basic operating system in C.",
-    dates: "Winter 2022",
-    url: "https://uwflow.com/course/cs350",
-  },
-  {
     courseName: "CFM 301: Financial Data Analytics",
     description:
       "Financial data analytics in the areas of asset pricing, securities trading, and portfolio management. Used Python to test asset pricing theories, trading algorithms and strategies, back-testing techniques.",
@@ -324,6 +324,28 @@ const experience = {
       title: "Internships",
       work: true,
       experiences: [
+        {
+          title: "Software Engineer",
+          company: "Relay Financial",
+          company_url: "https://lab.research.sickkids.ca/ipss/silc/",
+          logo_path: "relay.jpg",
+          duration: "Apr 2023 - Sept 2023",
+          location: "Toronto, Canada",
+          description:
+            "Relay Financial is a fintech company that offers banking services tailored to small and medium-sized businesses. Their platform provides features like business banking accounts, expense management tools, and corporate cards, all with a focus on simplicity and efficiency.",
+          points: [
+            "Started an initiative to build machine learning models to automate workflows, greatly reducing turnaround time to approve new customers",
+            "Fine-tuned a Vision Transformer model to automatically classify documents and dynamically pull relevant information based on specific company policies",
+            "Utilized AWS lambdas and Typescript to deploy and build new functionality for risk analysis workflows",
+          ],
+          referencedPapers: [
+            {
+              name: "OCR-free Document Understanding Transformer",
+              url: "https://arxiv.org/abs/2111.15664",
+            },
+          ],
+          color: "#0879bf",
+        },
         {
           title: "Research Student | ML Engineer",
           company: "Stroke Imaging Lab for Children (SickKids)",
@@ -434,7 +456,7 @@ const experience = {
           duration: "Sept 2023 - Current",
           location: "Waterloo, Canada",
           description:
-            "Conducted research under Professor Justin Wan to optimize Generative AI training and sampling. Despite the widespread popularity of generative AI for its capacity to craft realistic and creative content, the surge in content generation requests has not been met with a corresponding increase in speed. This research project delves into strategies for accelerating the training and sampling procedures of diffusion models by optimizing the computation of differential equations.",
+            "Conducted research under Professor Justin Wan to optimize Generative AI training and sampling. Despite the widespread popularity of generative AI for its capacity to craft realistic and creative content, the surge in content generation requests has not been met with a corresponding increase in speed. This research project delves into strategies for accelerating the training and sampling procedures of diffusion models by optimizing the computation of differential equations. \n\n **Authored [research paper](https://arxiv.org/abs/2404.06661) and submitted to BMVC conference**",
           points: [
             "Investigated multiple ways to decrease training time and sampling by speeding up differential equation solvers",
             "Tested a time-stepping PDE solver for the Kolmogorov/Fokker-Plank equation",

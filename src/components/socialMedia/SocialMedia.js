@@ -1,6 +1,8 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import "./SocialMedia.css";
-import { socialMediaLinks } from "../../portfolio";
+import * as SoftwarePortfolio from "../../shared/portfolio/portfolio_software";
+import * as MLPortfolio from "../../shared/portfolio/portfolio_ml";
 import styled from "styled-components";
 
 const IconWrapper = styled.span`
@@ -19,7 +21,10 @@ const IconWrapper = styled.span`
   }
 `;
 
-export default function socialMedia(props) {
+export default function SocialMedia(props) {
+  const { role } = useParams();
+  const { socialMediaLinks } =
+    role === "software" ? SoftwarePortfolio : MLPortfolio;
   return (
     <div className="social-media-div">
       {socialMediaLinks.map((media) => {

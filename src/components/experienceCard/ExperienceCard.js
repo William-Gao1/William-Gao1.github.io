@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MarkdownRenderer from "react-markdown-renderer";
 import "./ExperienceCard.css";
 import { Fade } from "react-reveal";
 
@@ -100,12 +101,19 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div className="experience-description" />
-                <p style={{ lineHeight: "1.7" }}>{experience["description"]}</p>
+                <span style={{ lineHeight: "1.7" }}>
+                  <MarkdownRenderer
+                    markdown={experience["description"]}
+                    options={{ breaks: true }}
+                  />
+                </span>
               </div>
               {experience["points"] ? (
-                <ul>
+                <ul style={{ marginTop: 0 }}>
                   {experience["points"].map((text) => (
-                    <li style={{ marginBottom: "1em" }}>{text}</li>
+                    <li style={{ marginBottom: "1em" }}>
+                      <MarkdownRenderer markdown={text} />
+                    </li>
                   ))}
                 </ul>
               ) : null}

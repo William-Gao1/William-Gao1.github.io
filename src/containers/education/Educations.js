@@ -1,21 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
+import { useParams } from "react-router-dom";
 import "./Educations.css";
 import DegreeCard from "../../components/degreeCard/DegreeCard.js";
-import { degrees } from "../../portfolio";
+import * as SoftwarePortfolio from "../../shared/portfolio/portfolio_software.js";
+import * as MLPortfolio from "../../shared/portfolio/portfolio_ml.js";
 
-class Educations extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div className="main" id="educations">
-        <div className="educations-body-div">
-          {degrees.degrees.map((degree) => {
-            return <DegreeCard degree={degree} theme={theme} />;
-          })}
-        </div>
+const Educations = ({ theme }) => {
+  const { role } = useParams();
+
+  const { degrees } = role === "software" ? SoftwarePortfolio : MLPortfolio;
+  return (
+    <div className="main" id="educations">
+      <div className="educations-body-div">
+        {degrees.degrees.map((degree) => {
+          return <DegreeCard degree={degree} theme={theme} />;
+        })}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Educations;
