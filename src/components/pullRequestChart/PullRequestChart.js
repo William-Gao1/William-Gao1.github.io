@@ -4,6 +4,8 @@ import { Fade } from "react-reveal";
 import "./PullRequestChart.css";
 import PullRequestData from "../../shared/opensource/pull_requests.json";
 
+console.log(process.env.SECRET_KEY);
+
 class PullRequestChart extends Component {
   render() {
     const data = {
